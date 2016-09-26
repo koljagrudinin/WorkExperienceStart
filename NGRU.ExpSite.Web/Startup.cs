@@ -9,6 +9,9 @@ namespace NGRU.ExpSite.Web
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+			ConfigureUnity(app);
         }
+
+	  
     }
 }
